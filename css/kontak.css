@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+a img {
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    background-color: pink;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
